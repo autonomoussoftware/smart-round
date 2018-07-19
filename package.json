@@ -1,0 +1,56 @@
+{
+  "name": "smart-round",
+  "version": "1.0.0",
+  "description": "Round big numbers with arbitrary precision",
+  "keywords": [
+    "round",
+    "bignumber",
+    "decimals",
+    "precision"
+  ],
+  "license": "MIT",
+  "author": "Gabriel Montes <gabriel@bloq.com>",
+  "files": [
+    "es5",
+    "src"
+  ],
+  "main": "src/index.js",
+  "browser": "es5/index.js",
+  "repository": "autonomoussoftware/smart-round",
+  "scripts": {
+    "build": "babel -d es5/ src/",
+    "check": "npm-check -p -i eslint*",
+    "coverage": "nyc --lines 95 --functions 95 --branches 95 --reporter=lcov --reporter=text npm test",
+    "lint": "eslint --cache .",
+    "precommit": "npm run lint",
+    "prepublishOnly": "npm run build && npm run precommit && npm run prepush && tag-matches",
+    "prepush": "npm run check",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "accounting": "^0.4.1",
+    "bignumber.js": "^7.2.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.0.0",
+    "check-tag-matches": "^1.0.0",
+    "eslint": "^5.1.0",
+    "eslint-config-bloq": "^1.2.2",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jsdoc": "^3.7.0",
+    "eslint-plugin-mocha": "^5.1.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-prefer-arrow": "^1.0.0",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "husky": "^0.14.3",
+    "mocha": "^5.2.0",
+    "npm-check": "^5.7.1",
+    "nyc": "^12.0.2"
+  },
+  "preferGlobal": false,
+  "private": false
+}
