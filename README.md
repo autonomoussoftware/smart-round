@@ -1,6 +1,6 @@
 # smart-round
 
-[![Build Status](https://travis-ci.org/autonomoussoftware/smart-round.svg?branch=master)](https://travis-ci.org/autonomoussoftware/smart-round)
+[![Build Status](https://travis-ci.com/autonomoussoftware/smart-round.svg?branch=master)](https://travis-ci.com/autonomoussoftware/smart-round)
 [![Code Style](https://img.shields.io/badge/code%20style-bloq-0063a6.svg)](https://github.com/bloq/eslint-config-bloq)
 [![Known Vulnerabilities](https://snyk.io/test/github/autonomoussoftware/smart-round/badge.svg?targetFile=package.json)](https://snyk.io/test/github/autonomoussoftware/smart-round:package.json)
 
