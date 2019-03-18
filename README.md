@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.com/autonomoussoftware/smart-round.svg?branch=master)](https://travis-ci.com/autonomoussoftware/smart-round)
 [![Code Style](https://img.shields.io/badge/code%20style-bloq-0063a6.svg)](https://github.com/bloq/eslint-config-bloq)
-[![Known Vulnerabilities](https://snyk.io/test/github/autonomoussoftware/smart-round/badge.svg?targetFile=package.json)](https://snyk.io/test/github/autonomoussoftware/smart-round:package.json)
+[![Known Vulnerabilities](https://snyk.io/test/github/autonomoussoftware/smart-round/badge.svg?targetFile=package.json)](https://snyk.io/test/github/autonomoussoftware/smart-round:package.json) [![Greenkeeper badge](https://badges.greenkeeper.io/autonomoussoftware/smart-round.svg)](https://greenkeeper.io/)
 
 Round big numbers with arbitrary precision
 
